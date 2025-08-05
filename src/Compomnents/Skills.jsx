@@ -28,7 +28,7 @@ function Skills() {
                                                 overlay={<Tooltip>Proficient</Tooltip>}
                                             >
                                                 <Card.Text className={`rounded-pill p-2 ms-2  border border-info my-2 col-md-5 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                    <img src="../src/assets/images/python.png" alt="python" height="27px" width="28px" />
+                                                    <img src="../assets/images/python.png" alt="python" height="27px" width="28px" />
                                                     <span className="ms-2">Python</span>
                                                 </Card.Text>
                                             </OverlayTrigger>
