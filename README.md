@@ -1,12 +1,50 @@
-# React + Vite
+# Enamul's Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern, responsive **portfolio website** built using **React** and **Vite**, showcasing the work, skills, and resume of Enamul Haq.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive and elegant design
+- Project showcase section
+- Skills display with hover effects
+- Resume download and preview
+- Dark/light theme toggle
+- Built with performance in mind using Vite
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React, HTML5, CSS3, JavaScript
+- **Bundler**: Vite
+- **Styling**: Bootstrap
+- **Code Quality**: ESLint
+
+## 📁 Project Structure
+
+Enamul_Portfolio/
+├── public/ # Static assets
+├── src/
+│ ├── Components/ # Reusable components (Intro, Navbar, etc.)
+│ ├── assets/ # Images, icons
+│ └── App.jsx # Main app file
+├── index.html # HTML entry point
+├── package.json # Project metadata and scripts
+├── vite.config.js # Vite config
+└── .gitignore # Ignored files in Git
+
+
+## 📄 How to Run Locally
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/enamul-asad/Enamul_Portfolio.git
+cd Enamul_Portfolio
+```
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Start Development Server
+```bash
+npm run dev
