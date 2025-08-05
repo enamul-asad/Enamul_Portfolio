@@ -1,0 +1,29 @@
+.menu {
+    background-color: rgb(18, 18, 62);
+}
+
+.tcolor {
+
+    margin: 0 23px;
+    color: white !important;
+}
+
+.Nhover {
+    color: white !important;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    will-change: transform;
+    line-height: 1.5;
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease;
+}
+
+.Nhover:hover {
+    color: rgb(130, 130, 206) !important;
+    transform: translateY(-1px);
+}
+
+.logo {
+    position: relative;
+    top: -5px;
+
+}

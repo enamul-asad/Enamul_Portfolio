@@ -1,0 +1,17 @@
+.input,
+.textarea {
+  width: 100% !important;
+  border: 0 !important;
+  outline: none !important;
+  background: #191836 !important;
+  padding: 15px !important;
+  margin: 15px 0;
+  font-size: 18px !important;
+  border-radius: 6px !important;
+  /* color: #fff !important; */
+}
+
+.customInput::placeholder {
+  color: #aaa !important;
+  opacity: .5 !important;        /* Make sure it's fully visible */
+}

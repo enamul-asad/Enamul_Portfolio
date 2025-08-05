@@ -1,0 +1,12 @@
+.line {
+  height: 1px;
+  background-color: lavender;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+.name {
+  color: rgb(146, 146, 226);
+  font-family: 'Great Vibes', 'cursive';
+  font-weight: bold;
+  font-size: 3.5em;
+}

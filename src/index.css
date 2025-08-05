@@ -1,0 +1,21 @@
+/* body {
+  background-color: rgb(0, 0, 33);
+  font-family: 'Poppins', sans-serif;
+
+}
+
+html {
+  scroll-padding-top: 100px;
+  scroll-behavior: smooth;
+} */
+
+/* @font-face {
+  font-family: 'Poppins';
+  src: url('assets/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+body {
+  color: lime;
+}
