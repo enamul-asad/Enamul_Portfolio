@@ -2,7 +2,7 @@ import { Container, Row, Col, Button } from "react-bootstrap"
 import style from '../css/Intro.module.css'
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import asad from '../src/assets/images/asad2.png'
+import asad from '../assets/images/asad2.png'
 
 function Intro() {
 const typedRef = useRef(null); // Ref for Typed.js
