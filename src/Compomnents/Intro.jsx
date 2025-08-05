@@ -5,7 +5,7 @@ import Typed from "typed.js";
 
 
 function Intro() {
-
+const asad = '../src/assets/images/asad2.png'
 const typedRef = useRef(null); // Ref for Typed.js
 
   useEffect(() => {
@@ -35,7 +35,7 @@ const resume = "https://drive.google.com/file/d/1lH29QnhOWStYmrxI2C7rvWOJacdnVLO
                     </Col>
                     <Col md={5}>
                         <div>
-                            <img src="../src/assets/images/asad2.png" alt="" height={500} width={500}/>
+                            <img src={asad} alt="" height={500} width={500}/>
                         </div>
                     </Col>
                 </Row>
