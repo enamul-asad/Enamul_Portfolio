@@ -6,6 +6,9 @@ import '../css/style.css'
 
 function ContactMe() {
 
+const resume = "https://drive.google.com/file/d/1lH29QnhOWStYmrxI2C7rvWOJacdnVLOV/view?usp=sharing";
+
+
     const formRef = useRef(null);
     const [msg, setMsg] = useState("");
 
@@ -58,7 +61,7 @@ function ContactMe() {
                             </a>
                         </Col >
                         < Col md>
-                            <a href="images/ENAMUL RESUME.pdf" download class="btn btn-danger mt-5" data-aos="fade-left"
+                            <a href={resume} download class="btn btn-danger mt-5" data-aos="fade-left"
                                 data-aos-delay="500" target="_blank">Download CV</a>
                         </Col>
                     </Col>
