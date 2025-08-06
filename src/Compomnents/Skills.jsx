@@ -19,7 +19,8 @@ import html from "../assets/images/html.png"
 import css from "../assets/images/css.png"
 import timeM from "../assets/images/time.png"
 import communication from "../assets/images/communication.png"
-import teamwork from "../assets/images/teamwork.png"
+import sql from "../assets/images/sql.png"
+import teamwork from "../assets/images/teamwork.PNG"
 import problemSolving from "../assets/images/problemSolving.png"
 
 function Skills() {
@@ -34,7 +35,7 @@ function Skills() {
                 <Container data-aos="fade-left" data-aos-delay="500">
                     <Row >
                         <Col md className={`mt-3 ${style.cardhover}`} >
-                            <Card className={` border-info mb-3 ${style.cardbg}`} style={{ paddingBottom: "85px" }}>
+                            <Card className={` border-info mb-3 ${style.cardbg}`} style={{ paddingBottom: "42px" }}>
                                 <Card.Body>
                                     <Card.Title className="text-center m-3 text-light pb-4 border-bottom border-info fs-4">
                                         <i class="fas fa-code  fs-4 me-3"></i>
@@ -61,7 +62,7 @@ function Skills() {
                                             </Card.Text>
                                             </OverlayTrigger>
                                         </Row>
-                                        <Row className=" mb-3 ms-2">
+                                        <Row className="ms-2">
                                             <OverlayTrigger
                                                 placement="bottom"
                                                 overlay={<Tooltip>Good understanding  </Tooltip>}
@@ -87,6 +88,18 @@ function Skills() {
                                                 <img src={csharp} alt="C#" height="27px" width="28px" />
                                                 <span className="ms-2">C#</span>
                                             </Card.Text></OverlayTrigger>
+                                        </Row>
+                                        <Row className=" ms-2">
+                                            <OverlayTrigger
+                                                placement="bottom"
+                                                overlay={<Tooltip>Explored </Tooltip>}
+                                            >
+                                            <Card.Text className={`rounded-pill p-2 border border-info col-md-4 my-2 m-1  text-info ${style.Sheight} ${style.skillbtn}`}>
+                                                <img src={sql} alt="sql" height="27px" width="28px" />
+                                                <span className="ms-2">SQL</span>
+                                            </Card.Text>
+                                            </OverlayTrigger>
+                                            
                                         </Row>
                                     </Container>
                                 </Card.Body>
