@@ -1,6 +1,7 @@
 import { Row, Col, Container } from "react-bootstrap"
 import style from '../css/About.module.css'
 import { useState } from "react";
+import display from '../assets/images/one.webp'
 
 function AboutUs() {
     const [activeTab, setActiveTab] = useState('Education');
@@ -15,7 +16,11 @@ function AboutUs() {
                 </Row>
                 <Row>
                     <Col md={5} data-aos="fade-right" data-aos-delay="500">
-                        <img src="../src/assets/images/one.webp" alt="" height="480px" width="450px" />
+                        <Row>
+                            <Col md={11}>
+                                <img src={display} alt="" className="img-fluid" />
+                            </Col>
+                        </Row>
 
                     </Col>
                     <Col md={7} className="text-start text-light">
@@ -42,12 +47,20 @@ function AboutUs() {
                                     <Col md className={` mt-4 text-start ${style.tabContents} ${style.activeTab}`}>
                                         <ul>
                                             <li>
+                                                <span>2015-17</span><br />
+                                                <strong>High School (9th–10th)</strong> from UP Board
+                                            </li>
+                                            <li>
+                                                <span>2017-19</span><br />
+                                                <strong>Intermediate (11th–12th)</strong> from UP Board
+                                            </li>
+                                            <li>
                                                 <span>2019-22</span><br />
-                                                B.Sc (Mathematics) from Veer Bahadur Singh Pruvancal University Juanpur
+                                               <strong> B.Sc (Mathematics)</strong> from Veer Bahadur Singh Purvanchal University Jaunpur
                                             </li>
                                             <li>
                                                 <span>2023-25</span><br />
-                                                M.C.A from Integral University Lucknow
+                                                <strong>M.C.A</strong> from Integral University Lucknow
                                             </li>
                                         </ul>
                                     </Col>

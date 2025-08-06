@@ -1,7 +1,9 @@
 import { Container, Row, Col, Button, Card } from "react-bootstrap"
 import '../css/style.css'
 import style from '../css/Project.module.css'
-
+import OMHC from "../assets/images/chat.png"
+import CRM from "../assets/images/crm.avif"
+import news from "../assets/images/news.jpeg"
 function Projects() {
     return (
         <>
@@ -14,7 +16,7 @@ function Projects() {
                 <Row data-aos="fade-up" data-aos-delay="500">
                     <Col md className="my-3">
                         <Card className={style.cardbg} >
-                            <Card.Img variant="top" className="mx-auto mt-2" src="../src/assets/images/chat.png" style={{ width: "95%" }} />
+                            <Card.Img variant="top" className="mx-auto mt-2" src={OMHC} style={{ width: "95%" }} />
                             <Card.Body>
                                 <Card.Title className="fw-bold text-light mt-3 mb-4">Online Mental Health Chatbot</Card.Title>
                                 <Card.Text>
@@ -41,7 +43,7 @@ function Projects() {
                     </Col>
                     <Col md className="my-3">
                         <Card className={style.cardbg} >
-                            <Card.Img variant="top" className="mx-auto mt-2" src="../src/assets/images/crm.avif" style={{ width: "95%", height:"247px" }} />
+                            <Card.Img variant="top" className="mx-auto mt-2" src={CRM} style={{ width: "95%", height:"247px" }} />
                             <Card.Body>
                                 <Card.Title className="fw-bold text-light mt-3 mb-4">MARC LAB CRM System</Card.Title>
                                 <Card.Text>
@@ -68,7 +70,7 @@ function Projects() {
                     </Col>
                     <Col md className="my-3">
                         <Card className={style.cardbg} >
-                            <Card.Img variant="top" className="mx-auto mt-2" src="../src/assets/images/news.jpeg" style={{ width: "95%", height: '247px'}} />
+                            <Card.Img variant="top" className="mx-auto mt-2" src={news} style={{ width: "95%", height: '247px'}} />
                             <Card.Body>
                                 <Card.Title className="fw-bold text-light mt-3 mb-4">NEWS Letter Web Page</Card.Title>
                                 <Card.Text>

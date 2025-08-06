@@ -1,5 +1,6 @@
 import { Nav, Container, Navbar } from "react-bootstrap"
 import style from '../css/Heder.module.css'
+import logo from "../assets/images/asad.PNG"
 
 function Header() {
     return (
@@ -9,7 +10,7 @@ function Header() {
                 {/* <div className="container" data-aos="fade-down" data-aos-delay="500"> */}
                 <Container data-aos="fade-down" data-aos-delay="500" >
                     <Navbar.Brand href="/" className="text-light mx-auto fs-3 name ">
-                    <img src="../src/assets/images/asad.PNG" className={`me-4 rounded-pill ${style.logo}`} height={50} alt="" />
+                    <img src={logo} className={`me-4 rounded-pill  ${style.logo}`} height={50} alt="" />
                     Enamul's Portfolio
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-light" />

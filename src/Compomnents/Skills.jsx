@@ -1,7 +1,26 @@
 import { Container, Row, Col, Card, OverlayTrigger, Tooltip } from "react-bootstrap"
 import '../css/style.css';
 import style from '../css/Skills.module.css'
-
+import python from '../assets/images/python.png'
+import jS from "../assets/images/js.png"
+import c from "../assets/images/c.png"
+import java from "../assets/images/java.png"
+import csharp from "../assets/images/csharp.png"
+import boots from "../assets/images/boots.png"
+import reactjs from "../assets/images/reactjs.png"
+import tailwindcss from "../assets/images/tailwindcss.png"
+import flask from "../assets/images/js.png"
+import dJango from "../assets/images/django.png"
+import git from "../assets/images/git.png"
+import github from "../assets/images/github.png"
+import vscode from "../assets/images/vscode.png"
+import intelliJ from "../assets/images/intelliJ.png"
+import html from "../assets/images/html.png"
+import css from "../assets/images/css.png"
+import timeM from "../assets/images/time.png"
+import communication from "../assets/images/communication.png"
+import teamwork from "../assets/images/teamwork.png"
+import problemSolving from "../assets/images/problemSolving.png"
 
 function Skills() {
     return (
@@ -28,7 +47,7 @@ function Skills() {
                                                 overlay={<Tooltip>Proficient</Tooltip>}
                                             >
                                                 <Card.Text className={`rounded-pill p-2 ms-2  border border-info my-2 col-md-5 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                    <img src="../assets/images/python.png" alt="python" height="27px" width="28px" />
+                                                    <img src={python} alt="python" height="27px" width="28px" />
                                                     <span className="ms-2">Python</span>
                                                 </Card.Text>
                                             </OverlayTrigger>
@@ -37,7 +56,7 @@ function Skills() {
                                                 overlay={<Tooltip>Good understanding  </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 ms-2  border border-info col-md-6 my-2 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/js.png" alt="JavaScript" height="27px" width="28px" />
+                                                <img src={jS} alt="JavaScript" height="27px" width="28px" />
                                                 <span className="ms-2">JavaScript</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -48,7 +67,7 @@ function Skills() {
                                                 overlay={<Tooltip>Good understanding  </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 ms-1  border border-info my-2 col-md-3 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/c.png" alt="c" height="27px" width="28px" />
+                                                <img src={c} alt="c" height="27px" width="28px" />
                                                 <span className="ms-2">C</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -57,7 +76,7 @@ function Skills() {
                                                 overlay={<Tooltip>Explored </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 border border-info col-md-4 my-2 m-1  text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/java.png" alt="Java" height="27px" width="28px" />
+                                                <img src={java} alt="Java" height="27px" width="28px" />
                                                 <span className="ms-2">Java</span>
                                             </Card.Text></OverlayTrigger>
                                             <OverlayTrigger
@@ -65,7 +84,7 @@ function Skills() {
                                                 overlay={<Tooltip>Familiar  </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 ms-1  border border-info col-md-4 my-2 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/csharp.png" alt="C#" height="27px" width="28px" />
+                                                <img src={csharp} alt="C#" height="27px" width="28px" />
                                                 <span className="ms-2">C#</span>
                                             </Card.Text></OverlayTrigger>
                                         </Row>
@@ -88,7 +107,7 @@ function Skills() {
                                                 overlay={<Tooltip>Capable of Using </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 ms-2 border border-info my-2 col-md-5 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/reactjs.png" alt="React JS" height="27px" width="28px" />
+                                                <img src={reactjs} alt="React JS" height="27px" width="28px" />
                                                 <span className="ms-2">React JS</span>
                                             </Card.Text></OverlayTrigger>
                                             <OverlayTrigger
@@ -96,7 +115,7 @@ function Skills() {
                                                 overlay={<Tooltip>Proficient </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 ms-2  border border-info col-md-6 my-2 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/django.png" alt="django" height="27px" width="28px" />
+                                                <img src={dJango} alt="django" height="27px" width="28px" />
                                                 <span className="ms-2">dJango</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -107,7 +126,7 @@ function Skills() {
                                                 overlay={<Tooltip>Good Understanding </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 ms-1  border border-info my-2 col-md-6 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/tailwindcss.png" alt="tailwindcss" height="27px" width="28px" />
+                                                <img src={tailwindcss} alt="tailwindcss" height="27px" width="28px" />
                                                 <span className="ms-2">Tailwind CSS</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -116,7 +135,7 @@ function Skills() {
                                                 overlay={<Tooltip>Currently Learning </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 border border-info col-md-5 my-2 m-1  text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/flask.png" alt="Flask" height="27px" width="28px" />
+                                                <img src={flask} alt="Flask" height="27px" width="28px" />
                                                 <span className="ms-2">Flask</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -127,7 +146,7 @@ function Skills() {
                                                 overlay={<Tooltip>Proficient </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 ms-1  border border-info justify-content-lg-center col-md-5 my-2 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/boots.png" alt="Bootstrap" height="27px" width="28px" />
+                                                <img src={boots} alt="Bootstrap" height="27px" width="28px" />
                                                 <span className="ms-2">Bootstrap</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -151,7 +170,7 @@ function Skills() {
                                                 overlay={<Tooltip>Explored </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 ms-2  border border-info my-2 col-md-5 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/github.png" alt="Git Hub" height="27px" width="28px" />
+                                                <img src={github} alt="Git Hub" height="27px" width="28px" />
                                                 <span className="ms-1">Git Hub</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -160,7 +179,7 @@ function Skills() {
                                                 overlay={<Tooltip>Proficient </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 ms-2  border border-info col-md-6 my-2 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/vscode.png" alt="VS Code" height="27px" width="28px" />
+                                                <img src={vscode} alt="VS Code" height="27px" width="28px" />
                                                 <span className="ms-1">VS Code</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -171,7 +190,7 @@ function Skills() {
                                                 overlay={<Tooltip>Familliar </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 border border-info col-md-4 my-2 m-1  text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/git.png" alt="Git" height="27px" width="28px" />
+                                                <img src={git} alt="Git" height="27px" width="28px" />
                                                 <span className="ms-1">Git</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -180,7 +199,7 @@ function Skills() {
                                                 overlay={<Tooltip>Proficient </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 ms-1  border border-info col-md-5 my-2 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/intelliJ.png" alt="IntelliJ IDEA" height="27px" width="28px" />
+                                                <img src={intelliJ} alt="IntelliJ IDEA" height="27px" width="28px" />
                                                 <span className="ms-1">IntelliJ IDEA</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -207,7 +226,7 @@ function Skills() {
                                                 overlay={<Tooltip>Proficient </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 ms-2  border border-info my-2 col-md-5 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/html.png" alt="HTML" height="27px" width="28px" />
+                                                <img src={html} alt="HTML" height="27px" width="28px" />
                                                 <span className="ms-2">HTML</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -216,7 +235,7 @@ function Skills() {
                                                 overlay={<Tooltip>Good Understanding </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 ms-2  border border-info col-md-6 my-2 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/js.png" alt="JavaScript" height="27px" width="28px" />
+                                                <img src={jS} alt="JavaScript" height="27px" width="28px" />
                                                 <span className="ms-2">JavaScript</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -227,7 +246,7 @@ function Skills() {
                                                 overlay={<Tooltip>Proficient </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 ms-1  border border-info my-2 col-md-5 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/boots.png" alt="Bootstrap" height="27px" width="28px" />
+                                                <img src={boots} alt="Bootstrap" height="27px" width="28px" />
                                                 <span className="ms-2">Bootstrap</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -236,7 +255,7 @@ function Skills() {
                                                 overlay={<Tooltip>Proficient </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 border border-info col-md-4 my-2 m-1  text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/css.png" alt="CSS" height="27px" width="28px" />
+                                                <img src={css} alt="CSS" height="27px" width="28px" />
                                                 <span className="ms-2">CSS</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -246,7 +265,7 @@ function Skills() {
                                                 overlay={<Tooltip>Good Understanding </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 ms-1  border border-info col-md-6 my-2 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/tailwindcss.png" alt="Tailwind CSS" height="27px" width="28px" />
+                                                <img src={tailwindcss} alt="Tailwind CSS" height="27px" width="28px" />
                                                 <span className="ms-2">Tailwind CSS</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -255,7 +274,7 @@ function Skills() {
                                                 overlay={<Tooltip>Good Unerstanding </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 ms-1  border border-info col-md-5 my-2 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/reactjs.png" alt="React JS" height="27px" width="28px" />
+                                                <img src={reactjs} alt="React JS" height="27px" width="28px" />
                                                 <span className="ms-2">React JS</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -279,7 +298,7 @@ function Skills() {
                                                 overlay={<Tooltip>Do My Best </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 ms-2 border border-info my-2 col-md-5 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/time.png" alt="Time Management" height="27px" width="28px" />
+                                                <img src={timeM} alt="Time Management" height="27px" width="28px" />
                                                 <span style={{ fontSize: "12px" }}>Time Management</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -288,7 +307,7 @@ function Skills() {
                                                 overlay={<Tooltip>Do My Best </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 ms-2  border border-info col-md-6 my-2 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/problemSolving.png" alt="Problem Solving" height="27px" width="28px" />
+                                                <img src={problemSolving} alt="Problem Solving" height="27px" width="28px" />
                                                 <span style={{ fontSize: "14px" }}>Problem Solving</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -299,7 +318,7 @@ function Skills() {
                                                 overlay={<Tooltip>Do My Best </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 ms-1  border border-info my-2 col-md-6 text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/communication.png" alt="Communication" height="27px" width="28px" />
+                                                <img src={communication} alt="Communication" height="27px" width="28px" />
                                                 <span style={{ fontSize: "14px" }}>Communication</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -308,7 +327,7 @@ function Skills() {
                                                 overlay={<Tooltip>Do My Best </Tooltip>}
                                             >
                                             <Card.Text className={`rounded-pill p-2 border border-info col-md-5 my-2 m-1  text-info ${style.Sheight} ${style.skillbtn}`}>
-                                                <img src="../src/assets/images/teamwork.png" alt="teamwork" height="27px" width="28px" />
+                                                <img src={teamwork} alt="teamwork" height="27px" width="28px" />
                                                 <span style={{ fontSize: "14px" }} className="ms-2">Team Work</span>
                                             </Card.Text>
                                             </OverlayTrigger>
@@ -326,5 +345,6 @@ function Skills() {
         </>
     )
 }
+import js from "@eslint/js";
 
 export default Skills

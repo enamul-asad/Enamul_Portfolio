@@ -9,7 +9,7 @@ const typedRef = useRef(null); // Ref for Typed.js
 
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
-      strings: ["Python Developer.", "Web Developer."],
+      strings: ["Python Developer", "Web Developer", "Frontend Developer" , "dJango Fullstack Developer"],
       typeSpeed: 50,
       backSpeed: 30,
       loop: true,
@@ -34,7 +34,7 @@ const resume = "https://drive.google.com/file/d/1lH29QnhOWStYmrxI2C7rvWOJacdnVLO
                     </Col>
                     <Col md={5}>
                         <div>
-                            <img src={asad} alt="" height={500} width={500}/>
+                            <img className="img-fluid" src={asad} alt=""/>
                         </div>
                     </Col>
                 </Row>
