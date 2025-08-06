@@ -36,7 +36,7 @@ function Projects() {
                                         <Button variant="outline-warning" className="my-2 rounded-pill">NLP Libraries</Button>
                                     </p>
                                     <Button variant="outline-danger" href="https://github.com/enamul-asad" className="mt-3">View Code</Button>
-                                    <Button variant="outline-danger" href="#" className="mt-3 float-end">Go Live</Button>
+                                    {/* <Button variant="outline-danger" href="#" className="mt-3 float-end">Go Live</Button> */}
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -63,7 +63,7 @@ function Projects() {
                                         <Button variant="outline-info" className="my-2 rounded-pill mx-2">dJango</Button>
                                     </p>
                                     <Button variant="outline-danger" href="https://github.com/enamul-asad" className="mt-3">View Code</Button>
-                                    <Button variant="outline-danger" href="#" className="mt-3 float-end">Go Live</Button>
+                                    {/* <Button variant="outline-danger" href="#" className="mt-3 float-end">Go Live</Button> */}
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -85,7 +85,7 @@ function Projects() {
 
                                     </p>
                                     <Button variant="outline-danger" href="https://github.com/enamul-asad" className="mt-3">View Code</Button>
-                                    <Button variant="outline-danger" href="#" className="mt-3 float-end">Go Live</Button>
+                                    {/* <Button variant="outline-danger" href="#" className="mt-3 float-end">Go Live</Button> */}
                                 </Card.Text>
                             </Card.Body>
                         </Card>
