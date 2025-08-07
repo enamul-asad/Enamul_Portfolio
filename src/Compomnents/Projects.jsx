@@ -27,15 +27,15 @@ function Projects() {
                                     and offers supportive responses or mental health tips.
                                     <p className="my-3 ">
                                         <b>Technologies Used : </b> </p><p>
-                                        <Button variant="outline-danger" className="rounded-pill">HTML</Button>
-                                        <Button variant="outline-warning" className="rounded-pill mx-2">CSS</Button>
-                                        <Button variant="outline-primary" className="rounded-pill">JavaScript</Button>
-                                        <Button variant="outline-info" className="rounded-pill mx-2">Bootstrap</Button>
-                                        <Button variant="outline-success" className="my-2 rounded-pill">Python</Button>
-                                        <Button variant="outline-info" className="my-2 rounded-pill mx-2">dJango</Button>
-                                        <Button variant="outline-warning" className="my-2 rounded-pill">NLP Libraries</Button>
+                                        <Button variant="info" className="rounded-pill">HTML</Button>
+                                        <Button variant="info" className="rounded-pill mx-2">CSS</Button>
+                                        <Button variant="info" className="rounded-pill">JavaScript</Button>
+                                        <Button variant="info" className="rounded-pill mx-2">Bootstrap</Button>
+                                        <Button variant="info" className="my-2 rounded-pill">Python</Button>
+                                        <Button variant="info" className="my-2 rounded-pill mx-2">dJango</Button>
+                                        <Button variant="info" className="my-2 rounded-pill">NLP Libraries</Button>
                                     </p>
-                                    <Button variant="outline-danger" href="https://github.com/enamul-asad" className="mt-3">View Code</Button>
+                                    <Button variant="outline-info" href="https://github.com/enamul-asad" className="mt-3">View Code</Button>
                                     {/* <Button variant="outline-danger" href="#" className="mt-3 float-end">Go Live</Button> */}
                                 </Card.Text>
                             </Card.Body>
@@ -55,14 +55,14 @@ function Projects() {
                                     through dedicated admin and customer interfaces.
                                     <p className="my-3 ">
                                         <b>Technologies Used : </b> </p><p>
-                                        <Button variant="outline-danger" className="rounded-pill">HTML</Button>
-                                        <Button variant="outline-warning" className="rounded-pill mx-2">CSS</Button>
-                                        <Button variant="outline-primary" className="rounded-pill">JavaScript</Button>
-                                        <Button variant="outline-info" className="rounded-pill mx-2">Bootstrap</Button>
-                                        <Button variant="outline-success" className="my-2 rounded-pill">Python</Button>
-                                        <Button variant="outline-info" className="my-2 rounded-pill mx-2">dJango</Button>
+                                        <Button variant="info" className="rounded-pill">HTML</Button>
+                                        <Button variant="info" className="rounded-pill mx-2">CSS</Button>
+                                        <Button variant="info" className="rounded-pill">JavaScript</Button>
+                                        <Button variant="info" className="rounded-pill mx-2">Bootstrap</Button>
+                                        <Button variant="info" className="my-2 rounded-pill">Python</Button>
+                                        <Button variant="info" className="my-2 rounded-pill mx-2">dJango</Button>
                                     </p>
-                                    <Button variant="outline-danger" href="https://github.com/enamul-asad" className="mt-3">View Code</Button>
+                                    <Button variant="outline-info" href="https://github.com/enamul-asad" className="mt-3">View Code</Button>
                                     {/* <Button variant="outline-danger" href="#" className="mt-3 float-end">Go Live</Button> */}
                                 </Card.Text>
                             </Card.Body>
@@ -77,14 +77,14 @@ function Projects() {
                                     NEWS APP is a simple, responsive web application that fetches and displays the latest news headlines in a clean, user-friendly interface. Users can browse trending news articles across various categories, ensuring they stay informed about current events from a central platform.
                                     <p className="my-3 ">
                                         <b>Technologies Used : </b> </p><p>
-                                        <Button variant="outline-danger" className="rounded-pill">HTML</Button>
-                                        <Button variant="outline-warning" className="rounded-pill mx-2">CSS</Button>
-                                        <Button variant="outline-primary" className="rounded-pill">JavaScript</Button>
-                                        <Button variant="outline-info" className="rounded-pill mx-2">Bootstrap</Button>
-                                        <Button variant="outline-success" className="my-2 rounded-pill">Api's</Button>
+                                        <Button variant="info" className="rounded-pill">HTML</Button>
+                                        <Button variant="info" className="rounded-pill mx-2">CSS</Button>
+                                        <Button variant="info" className="rounded-pill">JavaScript</Button>
+                                        <Button variant="info" className="rounded-pill mx-2">Bootstrap</Button>
+                                        <Button variant="info" className="my-2 rounded-pill">Api's</Button>
 
                                     </p>
-                                    <Button variant="outline-danger" href="https://github.com/enamul-asad" className="mt-3">View Code</Button>
+                                    <Button variant="outline-info" href="https://github.com/enamul-asad" className="mt-3">View Code</Button>
                                     {/* <Button variant="outline-danger" href="#" className="mt-3 float-end">Go Live</Button> */}
                                 </Card.Text>
                             </Card.Body>

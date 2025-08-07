@@ -19,7 +19,7 @@ const typedRef = useRef(null); // Ref for Typed.js
 
     return () => typed.destroy(); // Cleanup
   }, []);
-const resume = "https://drive.google.com/file/d/1lH29QnhOWStYmrxI2C7rvWOJacdnVLOV/view?usp=sharing";
+const resume = "https://drive.google.com/file/d/1LmyQTD-Yk7-Y1e_xM04Q-8ik7RR5I0UA/view?usp=sharing";
     return (
         <>
             <Container  className={style.first}>

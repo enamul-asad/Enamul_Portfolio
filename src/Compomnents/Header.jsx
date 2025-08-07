@@ -5,7 +5,7 @@ import logo from "../assets/images/asad.PNG"
 function Header() {
     return (
         <>
-        
+        <Container fluid>
            <Navbar className = {`${style.menu} fixed-top`} expand="lg">   {/* position-fixed top-0 start-0 end-0 */}
                 {/* <div className="container" data-aos="fade-down" data-aos-delay="500"> */}
                 <Container data-aos="fade-down" data-aos-delay="500" >
@@ -25,7 +25,7 @@ function Header() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-
+</Container>
         </>
     )
 }
