@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button } from "react-bootstrap"
+import { Container, Row, Col, Button,Alert } from "react-bootstrap"
 import { useState, useRef } from "react";
 import style from '../css/ContactMe.module.css'
 import '../css/style.css'
@@ -6,7 +6,8 @@ import '../css/style.css'
 
 function ContactMe() {
 
-const resume = "https://drive.google.com/file/d/1lH29QnhOWStYmrxI2C7rvWOJacdnVLOV/view?usp=sharing";
+    const resume = "https://drive.google.com/file/d/1LmyQTD-Yk7-Y1e_xM04Q-8ik7RR5I0UA/view?usp=sharing";
+
 
 
     const formRef = useRef(null);
@@ -25,7 +26,7 @@ const resume = "https://drive.google.com/file/d/1lH29QnhOWStYmrxI2C7rvWOJacdnVLO
         })
             .then((response) => {
                 setMsg("Message Sent Successfully");
-                setTimeout(() => setMsg(""), 1000);
+                setTimeout(() => setMsg(""), 2000);
                 formRef.current.reset();
             })
             .catch((error) => {
@@ -66,7 +67,8 @@ const resume = "https://drive.google.com/file/d/1lH29QnhOWStYmrxI2C7rvWOJacdnVLO
                         </Col>
                     </Col>
                     <Col md={8}>
-                        <div id="msg" className="mt-3 text-success fw-bold"> {msg}</div>
+                        {/* <div id="msg" className="mt-3 text-success fw-bold"> {msg}</div> */}
+                        <div>{msg?(<Alert variant="danger" className=" fw-bold">{msg}</Alert>):''}</div>
                         <form
                             ref={formRef}
                             onSubmit={handleSubmit}
