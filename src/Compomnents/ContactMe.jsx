@@ -87,7 +87,7 @@ export default function ContactMe() {
                     >
                         <i className="text-danger fa-solid fa-paper-plane me-3 fs-3"></i>
                         <a className="d-inline nav-link" href="mailto:ehaq14520@gmail.com">
-                            ehaq14520@gmail.com
+                            ehaq145200@gmail.com
                         </a>
                     </p>
 
