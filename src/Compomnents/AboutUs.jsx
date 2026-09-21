@@ -76,29 +76,16 @@ function AboutUs() {
                     <strong>Associate - Workday Adaptive Planning</strong><br />
                     PraisIT Solutions Pvt. Ltd. | Supporting Genpact
                 </li>
-
-                <li>
-                    <span>2024</span><br />
-                    <strong>Intern</strong><br />
-                    SoftPro India
-                </li>
+   <li>
+                                                <span>2024</span><br />
+                                                Internship at SoftPro India
+                                            </li>
 
             </ul>
         </Col>
     </Row>
 )}
-                            {activeTab === 'Experience' && (
-                                <Row>
-                                    <Col md className={`mt-4 text-start ${style.tabContents} ${style.activeTab}`}>
-                                        <ul>
-                                            <li>
-                                                <span>2024</span><br />
-                                                Internship at SoftPro India
-                                            </li>
-                                        </ul>
-                                    </Col >
-                                </Row>
-                            )}
+            
                         </Row>
                     </Col>
                 </Row>\
