@@ -73,7 +73,7 @@ function AboutUs() {
 
                 <li>
                     <span>May 2026 - Present</span><br />
-                    <strong>Associate - Workday Adaptive Planning</strong><br />
+                    <strong>Associate - Application Devloper(Workday Adaptive Planning)</strong><br />
                     PraisIT Solutions Pvt. Ltd. | Supporting Genpact
                 </li>
    <li>
