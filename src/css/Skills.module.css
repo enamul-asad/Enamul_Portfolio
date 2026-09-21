@@ -1,33 +1,191 @@
 .cardhover {
-  /* transition: transform 0.3s, box-shadow 0.3s; */
-  transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease;
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease,
+    background-color 0.4s ease;
 }
 
 .cardhover:hover {
-
-  /* transform: translateY(-8px);
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); */
   transform: translateY(-10px) scale(1.03);
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4);
-  /* background-color: #343a40; darken on hover */
 }
 
 .Sheight {
-  /* height: 48px; */
   background-color: #0d1a16 !important;
 }
 
 .skillbtn {
   transition: all 0.3s ease;
+
+  /* Important for responsive layout */
+  display: flex;
+  align-items: center;
+
+  /* Prevent content from overflowing */
+  max-width: 100%;
+  min-width: 0;
+
+  /* Keep the pill content in one line */
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .skillbtn:hover {
   border-color: #032c45 !important;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
+
 .cardbg {
   background-color: rgb(18, 18, 62) !important;
   color: rgb(130, 130, 206) !important;
-  /* height: 280px; */
+
+  /* Important */
+  width: 100%;
+  height: 100%;
+}
+
+
+/* =========================================================
+   SKILL ICON FIX
+   ========================================================= */
+
+/*
+   Your JSX already specifies:
+
+   height="27px"
+   width="28px"
+
+   This CSS makes sure another global img rule
+   cannot stretch the icons.
+*/
+
+.skillbtn img {
+  width: 28px !important;
+  height: 27px !important;
+
+  min-width: 28px !important;
+  min-height: 27px !important;
+
+  max-width: 28px !important;
+  max-height: 27px !important;
+
+  object-fit: contain;
+  flex: 0 0 28px;
+}
+
+
+/* Keep skill text inside the pill */
+.skillbtn span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+  .cardhover:hover {
+    transform: translateY(-6px) scale(1.01);
+  }
+
+  .skillbtn:hover {
+    transform: scale(1.03);
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 767.98px) {
+
+  /*
+     Disable the large card scaling on mobile.
+     Otherwise the card can touch/overflow the screen.
+  */
+  .cardhover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.35rem 1rem rgba(0, 0, 0, 0.35);
+  }
+
+  .skillbtn {
+    width: 100%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .skillbtn:hover {
+    transform: scale(1.02);
+  }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 575.98px) {
+
+  .cardhover {
+    width: 100%;
+  }
+
+  .cardhover:hover {
+    transform: translateY(-3px);
+  }
+
+  .skillbtn {
+    min-height: 44px;
+    padding: 7px 10px !important;
+    font-size: 14px;
+  }
+
+  .skillbtn img {
+    width: 26px !important;
+    height: 26px !important;
+
+    min-width: 26px !important;
+    min-height: 26px !important;
+
+    max-width: 26px !important;
+    max-height: 26px !important;
+
+    flex-basis: 26px;
+  }
+
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 375px) {
+
+  .skillbtn {
+    font-size: 13px;
+    padding: 6px 8px !important;
+  }
+
+  .skillbtn img {
+    width: 24px !important;
+    height: 24px !important;
+
+    min-width: 24px !important;
+    min-height: 24px !important;
+
+    max-width: 24px !important;
+    max-height: 24px !important;
+
+    flex-basis: 24px;
+  }
 
 }
